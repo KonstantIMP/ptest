@@ -58,6 +58,7 @@ dependencies {
     implementation(libs.androidx.core.ktx)
 
     implementation(libs.google.material)
+    implementation(libs.google.gson)
 
     testImplementation(libs.junit)
 
