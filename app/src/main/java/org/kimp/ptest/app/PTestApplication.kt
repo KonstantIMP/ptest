@@ -2,7 +2,9 @@ package org.kimp.ptest.app
 
 import android.app.Application
 import android.content.Intent
+import androidx.lifecycle.ViewModelProvider
 import com.google.android.material.color.DynamicColors
+import org.kimp.ptest.app.models.QuestionsViewModel
 import org.kimp.ptest.app.ui.activities.MainActivity
 
 class PTestApplication(): Application() {

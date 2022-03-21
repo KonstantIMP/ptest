@@ -51,8 +51,10 @@ android {
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
+    implementation(libs.kotlin.coroutines)
 
     implementation(libs.androidx.appcompat)
+    implementation(libs.androidx.lifecycle)
     implementation(libs.androidx.constraint.layout)
     implementation(libs.androidx.coordinator.layout)
     implementation(libs.androidx.core.ktx)
