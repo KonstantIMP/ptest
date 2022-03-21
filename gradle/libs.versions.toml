@@ -8,6 +8,7 @@ androidx_test = "1.4.0"
 appcompat = "1.4.1"
 material = "1.5.0"
 constraint_layout = "2.1.2"
+coordinator_layout = "1.2.0"
 core_ktx = "1.7.0"
 espresso_core = "3.4.0"
 compile_sdk_version = "31"
@@ -20,6 +21,7 @@ agp = "7.1.2"
 junit = { module = "junit:junit", version.ref = "junit" }
 androidx_appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
 androidx_constraint_layout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraint.layout" }
+androidx_coordinator_layout = { module = "androidx.coordinatorlayout:coordinatorlayout", version.ref = "coordinator.layout" }
 androidx_core_ktx = { module = "androidx.core:core-ktx", version.ref = "core.ktx" }
 androidx_test_rules = { module = "androidx.test:rules", version.ref = "androidx.test" }
 androidx_test_runner = { module = "androidx.test:runner", version.ref = "androidx.test" }

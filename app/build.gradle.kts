@@ -54,6 +54,7 @@ dependencies {
 
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.constraint.layout)
+    implementation(libs.androidx.coordinator.layout)
     implementation(libs.androidx.core.ktx)
 
     implementation(libs.google.material)
