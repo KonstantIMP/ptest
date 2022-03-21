@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">pTest</string>
     <string name="app_desc">A little temperament test</string>
+
+    <string name="qv_yes_btn">Yes</string>
+    <string name="qv_no_btn">No</string>
 </resources>
