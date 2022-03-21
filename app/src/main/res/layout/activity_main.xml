@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:animateLayoutChanges="true"
     android:padding="@dimen/doub_grid_size"
-    tools:context=".app.MainActivity">
+    tools:context=".app.ui.activities.MainActivity">
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
