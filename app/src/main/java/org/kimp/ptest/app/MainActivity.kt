@@ -1,4 +1,4 @@
-package com.ncorti.kotlin.template.app
+package org.kimp.ptest.app
 
 import android.os.Bundle
 import android.view.View

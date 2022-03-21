@@ -1,4 +1,4 @@
-package com.ncorti.kotlin.template.app
+package org.kimp.ptest.app
 
 import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.action.ViewActions.click
