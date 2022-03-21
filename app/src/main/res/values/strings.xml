@@ -4,4 +4,6 @@
 
     <string name="qv_yes_btn">Yes</string>
     <string name="qv_no_btn">No</string>
+
+    <string name="finish_test_btn">Finish</string>
 </resources>
