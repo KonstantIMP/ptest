@@ -60,10 +60,11 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <ScrollView
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ma_questions_rv"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    </ScrollView>
+    </androidx.recyclerview.widget.RecyclerView>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

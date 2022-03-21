@@ -55,6 +55,7 @@ dependencies {
 
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.lifecycle)
+    implementation(libs.androidx.recyclerview)
     implementation(libs.androidx.constraint.layout)
     implementation(libs.androidx.coordinator.layout)
     implementation(libs.androidx.core.ktx)
