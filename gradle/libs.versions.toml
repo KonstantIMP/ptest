@@ -26,7 +26,8 @@ junit = { module = "junit:junit", version.ref = "junit" }
 kotlin_coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
 androidx_appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
 androidx_recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerview" }
-androidx_lifecycle = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
+androidx_lifecycle_viewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
+androidx_lifecycle_livedata = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycle" }
 androidx_constraint_layout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraint.layout" }
 androidx_coordinator_layout = { module = "androidx.coordinatorlayout:coordinatorlayout", version.ref = "coordinator.layout" }
 androidx_core_ktx = { module = "androidx.core:core-ktx", version.ref = "core.ktx" }

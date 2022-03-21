@@ -2,6 +2,8 @@
 <resources>
     <dimen name="base_grid_size">8dp</dimen>
     <dimen name="doub_grid_size">16dp</dimen>
+
     <dimen name="app_bar_size">256dp</dimen>
+
     <dimen name="card_corner_radius">30dp</dimen>
 </resources>

@@ -54,7 +54,8 @@ dependencies {
     implementation(libs.kotlin.coroutines)
 
     implementation(libs.androidx.appcompat)
-    implementation(libs.androidx.lifecycle)
+    implementation(libs.androidx.lifecycle.viewmodel)
+    implementation(libs.androidx.lifecycle.livedata)
     implementation(libs.androidx.recyclerview)
     implementation(libs.androidx.constraint.layout)
     implementation(libs.androidx.coordinator.layout)
