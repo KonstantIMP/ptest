@@ -26,7 +26,8 @@ class MainActivity : AppCompatActivity() {
         val questionsViewModel = ViewModelProvider(this)[QuestionsViewModel::class.java]
         questionsViewModel.loadQuestions(resources.openRawResource(R.raw.questions))
         questionsViewModel.getQuestions().observe(this) {
-            binding.maQuestionsRv.adapter = QuestionsRecyclerViewAdapter(it)
+            val viewAdapter = QuestionsRecyclerViewAdapter(it, questionsViewModel, this)
+            binding.maQuestionsRv.adapter = viewAdapter
         }
     }
 }
