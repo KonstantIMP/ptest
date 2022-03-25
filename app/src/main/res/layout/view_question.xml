@@ -38,11 +38,12 @@
 
         </LinearLayout>
 
-        <LinearLayout
+        <com.google.android.material.button.MaterialButtonToggleGroup
+            android:id="@+id/qv_toggle_group"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="8dp">
+            android:layout_marginTop="8dp"
+            app:singleSelection="true">
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/qv_yes_btn"
@@ -50,17 +51,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/qv_yes_btn"
-                style="@style/Widget.Material3.Button.TonalButton"/>
+                style="@style/Widget.Material3.Button.OutlinedButton"/>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/qv_no_btn"
-                android:layout_marginStart="8dp"
                 android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/qv_no_btn"
-                style="@style/Widget.Material3.Button.TonalButton" />
-        </LinearLayout>
+                style="@style/Widget.Material3.Button.OutlinedButton"/>
+
+        </com.google.android.material.button.MaterialButtonToggleGroup>
     </LinearLayout>
 
 </com.google.android.material.card.MaterialCardView>
