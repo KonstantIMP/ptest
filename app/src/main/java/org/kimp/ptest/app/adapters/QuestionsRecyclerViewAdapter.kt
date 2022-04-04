@@ -1,5 +1,6 @@
 package org.kimp.ptest.app.adapters
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.view.get
@@ -13,8 +14,10 @@ import org.kimp.ptest.app.adapters.holders.QuestionsRecyclerViewHolder
 import org.kimp.ptest.app.models.QuestionsViewModel
 import org.kimp.ptest.app.serialization.AnswerType
 import org.kimp.ptest.app.serialization.Question
+import org.kimp.ptest.app.ui.activities.FinishActivity
 import org.kimp.ptest.databinding.ViewFinishButtonBinding
 import org.kimp.ptest.databinding.ViewQuestionBinding
+import kotlin.streams.toList
 
 class QuestionsRecyclerViewAdapter(private val questions: Map<Int, String>,
     private val questionsViewModel: QuestionsViewModel, private val lifecycleOwnerRV: LifecycleOwner) :
@@ -97,7 +100,16 @@ class QuestionsRecyclerViewAdapter(private val questions: Map<Int, String>,
             }
 
             buttonHolder.finishButton.setOnClickListener {
-
+                val intent = Intent(buttonHolder.appContext, FinishActivity::class.java)
+                intent.putExtra(
+                    "answers",
+                    questionsViewModel.getAnswers().value!!
+                        .stream().toList()
+                        .map { x -> x == AnswerType.ANSWER_YES }
+                        .toTypedArray()
+                        .toBooleanArray()
+                )
+                buttonHolder.appContext.startActivity(intent)
             }
         }
     }

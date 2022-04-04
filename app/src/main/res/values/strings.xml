@@ -1,9 +1,13 @@
 <resources>
-    <string name="app_name">pTest</string>
+    <string name="app_name" translatable="false">pTest</string>
     <string name="app_desc">A little temperament test</string>
 
     <string name="qv_yes_btn">Yes</string>
     <string name="qv_no_btn">No</string>
 
     <string name="finish_test_btn">Finish</string>
+
+    <string name="fa_finish_msg">Your results</string>
+    <string name="fa_number_msg" translatable="false">№</string>
+    <string name="fa_answer_msg">Answer</string>
 </resources>

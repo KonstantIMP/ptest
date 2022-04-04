@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_desc">Небольшой тест на темперамент</string>
+
+    <string name="qv_yes_btn">Да</string>
+    <string name="qv_no_btn">Нет</string>
+
+    <string name="finish_test_btn">Закончить</string>
+
+    <string name="fa_finish_msg">Ваши результаты</string>
+    <string name="fa_answer_msg">Ответ</string>
+</resources>

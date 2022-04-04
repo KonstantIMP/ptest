@@ -23,7 +23,7 @@ class QuestionsViewModel : ViewModel() {
 
     init {
         val answersArray = ArrayList<AnswerType>()
-        for (i in 0 .. 56) answersArray.add(AnswerType.ANSWER_YES)
+        for (i in 0 .. 56) answersArray.add(AnswerType.ANSWER_NOT_SET)
         answers.value = answersArray
     }
 
